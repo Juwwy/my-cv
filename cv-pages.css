@@ -1,0 +1,98 @@
+@charset "utf-8";
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 100%;
+    text-align: initial;
+    background-color: whitesmoke;
+    margin: 2em;
+    
+    
+}
+ 
+header {
+    text-align: align;
+    background-color: chocolate;
+    background-image: url(Images/bullseye.png); opacity: 60px;
+
+}
+header img {
+    position: relative;
+    top: 2em;
+    border-radius: 4.0em;
+    padding-left: 2em;
+}
+/* link styles */
+a:link, a:visited { color: black; }
+a:focus, a:hover, a:active { color: #F9AB33; }
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    position: relative;
+    left: 50em;
+}
+button {
+    border-radius: 0.5em;
+    border-style: none;
+    background-color: white;
+    width: 5em;
+
+}
+h1{
+    text-align: center;
+    position: relative;
+    bottom: 8em;
+    left:9em;
+}
+h2.two {
+    text-align: center;
+    position: relative;
+    bottom: 10em;
+    left:7.2em;
+    color: gold;
+}
+p.first {
+    text-align: center;
+    position: relative;
+    bottom: 13em;
+    left:17em;
+}
+h2.thr{
+    text-align: center;
+}
+p.thr {
+    text-align: center;
+}
+main.h3 {
+    background-color: aqua;
+    border-radius: 2em;
+    text-align: center;
+    color: brown;
+}
+/* Footer styles */
+footer {
+    color: white;
+    background-color: chocolate;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    margin: 2em;
+    margin-bottom: 0em;
+    padding-top: 1em;
+}
+footer dd{
+    position:relative;
+    right:em;
+
+}
+dd.sec {
+    position:relative;
+    left:64em;
+    bottom:75px;
+
+}
+footer img{
+    padding-bottom: 2em;
+    position: relative;
+    bottom: px;
+    left: 36em;
+}
